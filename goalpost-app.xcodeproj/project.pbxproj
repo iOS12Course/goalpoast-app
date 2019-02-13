@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F6DC40992213A55F00201ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC40982213A55F00201ADA /* AppDelegate.swift */; };
-		F6DC409B2213A55F00201ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC409A2213A55F00201ADA /* ViewController.swift */; };
+		F6DC409B2213A55F00201ADA /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC409A2213A55F00201ADA /* GoalsVC.swift */; };
 		F6DC409E2213A55F00201ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DC409C2213A55F00201ADA /* Main.storyboard */; };
 		F6DC40A12213A55F00201ADA /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6DC409F2213A55F00201ADA /* goalpost_app.xcdatamodeld */; };
 		F6DC40A32213A56000201ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DC40A22213A56000201ADA /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		F6DC40952213A55F00201ADA /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DC40982213A55F00201ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6DC409A2213A55F00201ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DC409A2213A55F00201ADA /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		F6DC409D2213A55F00201ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DC40A02213A55F00201ADA /* goalpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost_app.xcdatamodel; sourceTree = "<group>"; };
 		F6DC40A22213A56000201ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		F6DC40AD2213A5E900201ADA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F6DC409A2213A55F00201ADA /* ViewController.swift */,
+				F6DC409A2213A55F00201ADA /* GoalsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DC409B2213A55F00201ADA /* ViewController.swift in Sources */,
+				F6DC409B2213A55F00201ADA /* GoalsVC.swift in Sources */,
 				F6DC40992213A55F00201ADA /* AppDelegate.swift in Sources */,
 				F6DC40A12213A55F00201ADA /* goalpost_app.xcdatamodeld in Sources */,
 			);
