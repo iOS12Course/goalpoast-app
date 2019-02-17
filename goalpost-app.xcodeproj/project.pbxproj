@@ -19,6 +19,7 @@
 		F6DC40BA221A1E8A00201ADA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC40B9221A1E8A00201ADA /* UIViewControllerExt.swift */; };
 		F6DC40BC221A217F00201ADA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC40BB221A217F00201ADA /* UIViewExt.swift */; };
 		F6DC40BE221A243900201ADA /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC40BD221A243900201ADA /* UIButtonExt.swift */; };
+		F6DC40C0221A271700201ADA /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC40BF221A271700201ADA /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F6DC40B9221A1E8A00201ADA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		F6DC40BB221A217F00201ADA /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		F6DC40BD221A243900201ADA /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		F6DC40BF221A271700201ADA /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				F6DC409A2213A55F00201ADA /* GoalsVC.swift */,
 				F6DC40B5221A1D4E00201ADA /* CreateGoalVC.swift */,
+				F6DC40BF221A271700201ADA /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				F6DC40992213A55F00201ADA /* AppDelegate.swift in Sources */,
 				F6DC40BA221A1E8A00201ADA /* UIViewControllerExt.swift in Sources */,
 				F6DC40BE221A243900201ADA /* UIButtonExt.swift in Sources */,
+				F6DC40C0221A271700201ADA /* FinishGoalVC.swift in Sources */,
 				F6DC40A12213A55F00201ADA /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
